@@ -38,6 +38,7 @@ html, body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  margin-right: 3.2mm;
 }
 .title-icon svg {
   width: 3.1mm;
@@ -57,16 +58,16 @@ html, body {
   flex: 0 0 66mm;
   background: linear-gradient(165deg, var(--navy) 0%, var(--navy-dark) 100%);
   color: #fff;
-  padding: 8mm 6mm 6mm;
+  padding: 5mm 4mm 3mm;
   display: flex;
   flex-direction: column;
 }
 
 .photo-wrap {
-  width: 30mm;
-  height: 30mm;
+  width: 22mm;
+  height: 22mm;
   flex: none;
-  margin: 0 auto 4mm;
+  margin: 0 auto 3mm;
   border-radius: 50%;
   overflow: hidden;
   border: 2.5px solid rgba(255,255,255,0.55);
@@ -84,38 +85,38 @@ html, body {
 
 .name {
   text-align: center;
-  font-size: 15.5px;
+  font-size: 16.5px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.2px;
-  line-height: 1.2;
-  margin-bottom: 2.4mm;
+  line-height: 1.15;
+  margin-bottom: 1.2mm;
 }
 
 .role {
   text-align: center;
-  font-size: 9.6px;
+  font-size: 11px;
   color: #BFD7EA;
-  line-height: 1.3;
-  margin-bottom: 3.4mm;
+  line-height: 1.15;
+  margin-bottom: 1.8mm;
 }
 
 .availability {
   text-align: center;
-  font-size: 8.6px;
+  font-size: 10px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.2px;
   color: #fff;
   background: var(--blue-accent);
   border-radius: 3px;
-  padding: 2.4mm 1.6mm;
-  margin-bottom: 5mm;
+  padding: 1.6mm 1.4mm;
+  margin-bottom: 2.6mm;
   flex: none;
 }
 
 .side-section {
-  margin-bottom: 5.4mm;
+  margin-bottom: 1.7mm;
 }
 .side-section:last-child { margin-bottom: 0; }
 
@@ -123,16 +124,16 @@ html, body {
 .plain-title {
   display: flex;
   align-items: center;
-  font-size: 11.2px;
+  font-size: 14.5px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.6px;
+  letter-spacing: 0.4px;
   color: #fff;
-  margin-bottom: 2.8mm;
+  margin-bottom: 1.4mm;
 }
 .plain-title {
   border-bottom: 1px solid rgba(255,255,255,0.35);
-  padding-bottom: 1.4mm;
+  padding-bottom: 0.8mm;
 }
 .side-section h2 .title-rule {
   border-top-color: rgba(255,255,255,0.35);
@@ -142,26 +143,26 @@ html, body {
   display: flex;
   align-items: center;
   gap: 2.6mm;
-  font-size: 10.2px;
-  line-height: 1.3;
-  margin-bottom: 2.2mm;
+  font-size: 13.5px;
+  line-height: 1.15;
+  margin-bottom: 1.2mm;
   color: #E7EFF6;
   word-break: break-word;
 }
 .contact-list li:last-child { margin-bottom: 0; }
 .contact-list li svg {
-  width: 13px;
-  height: 13px;
-  flex: 0 0 13px;
+  width: 15px;
+  height: 15px;
+  flex: 0 0 15px;
   color: #fff;
 }
 
 .dot-list li {
   position: relative;
-  font-size: 10.1px;
-  line-height: 1.3;
-  padding-left: 3.2mm;
-  margin-bottom: 1.6mm;
+  font-size: 13.5px;
+  line-height: 1.2;
+  padding-left: 3.4mm;
+  margin-bottom: 0.6mm;
   color: #E7EFF6;
 }
 .dot-list li:last-child { margin-bottom: 0; }
@@ -181,18 +182,18 @@ html, body {
   justify-content: space-between;
   align-items: baseline;
   gap: 2mm;
-  font-size: 10.1px;
-  margin-bottom: 2mm;
+  font-size: 13.5px;
+  margin-bottom: 1mm;
 }
 .lang-row:last-child { margin-bottom: 0; }
 .lang-name { font-weight: 700; color: #fff; }
 .lang-level { color: #BFD7EA; white-space: nowrap; }
 
 .distinction {
-  font-size: 9.6px;
-  line-height: 1.3;
+  font-size: 13.5px;
+  line-height: 1.2;
   color: #E7EFF6;
-  padding-left: 3.2mm;
+  padding-left: 3.4mm;
   position: relative;
 }
 .distinction::before {
@@ -210,30 +211,30 @@ html, body {
 
 .content {
   flex: 1;
-  padding: 9mm 10mm 8mm;
+  padding: 6mm 8mm 4mm;
   display: flex;
   flex-direction: column;
 }
 
-.block { margin-bottom: 6mm; }
+.block { margin-bottom: 1.8mm; }
 .block:last-child { margin-bottom: 0; }
 
 .block-title {
-  font-size: 13.5px;
+  font-size: 17.5px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.3px;
   color: var(--navy);
   display: flex;
   align-items: center;
-  margin-bottom: 3.6mm;
+  margin-bottom: 1.8mm;
 }
 
 .profile-text {
-  font-size: 10.4px;
-  line-height: 1.32;
+  font-size: 14px;
+  line-height: 1.2;
   color: var(--text-gray);
-  margin-bottom: 2.4mm;
+  margin-bottom: 1.1mm;
   text-align: justify;
 }
 .profile-text:last-child { margin-bottom: 0; }
@@ -243,23 +244,24 @@ html, body {
   list-style: none;
   position: relative;
   margin-left: 1.5mm;
-  padding-left: 4.6mm;
-  border-left: 1.6px solid var(--navy);
+  padding-left: 5.2mm;
+  border-left: 1.2px solid #D7E0EA;
 }
 .timeline li {
   position: relative;
-  margin-bottom: 4mm;
+  margin-bottom: 2mm;
 }
 .timeline li:last-child { margin-bottom: 0; }
 .timeline li::before {
   content: "";
   position: absolute;
-  left: -6.8mm;
-  top: 2px;
-  width: 6.5px;
-  height: 6.5px;
+  left: -6.4mm;
+  top: 3px;
+  width: 9px;
+  height: 9px;
   border-radius: 50%;
   background: var(--navy);
+  box-shadow: 0 0 0 2px #fff;
 }
 
 .tl-row {
@@ -269,13 +271,13 @@ html, body {
   gap: 2mm;
 }
 .tl-title {
-  font-size: 11px;
+  font-size: 16.5px;
   font-weight: 700;
   color: var(--navy);
 }
 .tl-badge {
   flex: 0 0 auto;
-  font-size: 8.6px;
+  font-size: 10.5px;
   font-weight: 700;
   color: var(--navy);
   background: var(--blue-pale);
@@ -284,18 +286,18 @@ html, body {
   white-space: nowrap;
 }
 .tl-sub {
-  font-size: 9.2px;
+  font-size: 12px;
   font-style: italic;
   color: var(--blue-accent);
-  margin: 0.6mm 0 1.2mm;
+  margin: 0.3mm 0 0.5mm;
 }
 .tl-desc li {
   position: relative;
-  font-size: 9.7px;
-  line-height: 1.3;
+  font-size: 14px;
+  line-height: 1.2;
   color: var(--text-light-gray);
-  padding-left: 3mm;
-  margin-bottom: 0.9mm;
+  padding-left: 3.4mm;
+  margin-bottom: 0.3mm;
 }
 .tl-desc li:last-child { margin-bottom: 0; }
 .tl-desc li::before {
@@ -316,24 +318,24 @@ html, body {
   justify-content: space-between;
   align-items: flex-start;
   gap: 3mm;
-  padding: 2.6mm 0;
+  padding: 1.1mm 0;
   border-bottom: 0.75px dashed #d8d8d8;
 }
 .edu-row:last-child { border-bottom: none; }
 .edu-left { display: flex; flex-direction: column; gap: 0.4mm; }
 .edu-school {
-  font-size: 10.3px;
+  font-size: 14px;
   font-style: italic;
   font-weight: 700;
   color: var(--blue-accent);
 }
 .edu-degree {
-  font-size: 9.9px;
+  font-size: 13.5px;
   color: var(--text-gray);
 }
 .edu-dates {
   flex: 0 0 auto;
-  font-size: 9.3px;
+  font-size: 12px;
   color: var(--text-light-gray);
   white-space: nowrap;
   text-align: right;
