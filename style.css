@@ -54,18 +54,18 @@ html, body {
 /* ===================== SIDEBAR ===================== */
 
 .sidebar {
-  width: 66mm;
-  flex: 0 0 66mm;
+  width: 68mm;
+  flex: 0 0 68mm;
   background: linear-gradient(165deg, var(--navy) 0%, var(--navy-dark) 100%);
   color: #fff;
-  padding: 5mm 4mm 3mm;
+  padding: 4mm 3.5mm 3mm;
   display: flex;
   flex-direction: column;
 }
 
 .photo-wrap {
-  width: 22mm;
-  height: 22mm;
+  width: 24mm;
+  height: 24mm;
   flex: none;
   margin: 0 auto 3mm;
   border-radius: 50%;
@@ -90,7 +90,7 @@ html, body {
   text-transform: uppercase;
   letter-spacing: 0.2px;
   line-height: 1.15;
-  margin-bottom: 1.2mm;
+  margin-bottom: 1.4mm;
 }
 
 .role {
@@ -98,7 +98,7 @@ html, body {
   font-size: 11px;
   color: #BFD7EA;
   line-height: 1.15;
-  margin-bottom: 1.8mm;
+  margin-bottom: 2mm;
 }
 
 .availability {
@@ -110,33 +110,25 @@ html, body {
   color: #fff;
   background: var(--blue-accent);
   border-radius: 3px;
-  padding: 1.6mm 1.4mm;
+  padding: 1.8mm 1.6mm;
   margin-bottom: 2.6mm;
   flex: none;
 }
 
 .side-section {
-  margin-bottom: 1.7mm;
+  margin-bottom: 4mm;
 }
 .side-section:last-child { margin-bottom: 0; }
 
-.side-section h2,
 .plain-title {
-  display: flex;
-  align-items: center;
   font-size: 14.5px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.4px;
+  letter-spacing: 1.5px;
   color: #fff;
-  margin-bottom: 1.4mm;
-}
-.plain-title {
+  margin-bottom: 2.8mm;
   border-bottom: 1px solid rgba(255,255,255,0.35);
-  padding-bottom: 0.8mm;
-}
-.side-section h2 .title-rule {
-  border-top-color: rgba(255,255,255,0.35);
+  padding-bottom: 1.6mm;
 }
 
 .contact-list li {
@@ -145,7 +137,7 @@ html, body {
   gap: 2.6mm;
   font-size: 13.5px;
   line-height: 1.15;
-  margin-bottom: 1.2mm;
+  margin-bottom: 2.4mm;
   color: #E7EFF6;
   word-break: break-word;
 }
@@ -162,7 +154,7 @@ html, body {
   font-size: 13.5px;
   line-height: 1.2;
   padding-left: 3.4mm;
-  margin-bottom: 0.6mm;
+  margin-bottom: 1.8mm;
   color: #E7EFF6;
 }
 .dot-list li:last-child { margin-bottom: 0; }
@@ -183,7 +175,7 @@ html, body {
   align-items: baseline;
   gap: 2mm;
   font-size: 13.5px;
-  margin-bottom: 1mm;
+  margin-bottom: 2.2mm;
 }
 .lang-row:last-child { margin-bottom: 0; }
 .lang-name { font-weight: 700; color: #fff; }
@@ -211,12 +203,12 @@ html, body {
 
 .content {
   flex: 1;
-  padding: 6mm 8mm 4mm;
+  padding: 2.5mm 4.5mm 1.6mm;
   display: flex;
   flex-direction: column;
 }
 
-.block { margin-bottom: 1.8mm; }
+.block { margin-bottom: 2.2mm; }
 .block:last-child { margin-bottom: 0; }
 
 .block-title {
@@ -234,7 +226,7 @@ html, body {
   font-size: 14px;
   line-height: 1.2;
   color: var(--text-gray);
-  margin-bottom: 1.1mm;
+  margin-bottom: 1mm;
   text-align: justify;
 }
 .profile-text:last-child { margin-bottom: 0; }
@@ -289,7 +281,7 @@ html, body {
   font-size: 12px;
   font-style: italic;
   color: var(--blue-accent);
-  margin: 0.3mm 0 0.5mm;
+  margin: 0.3mm 0 0.6mm;
 }
 .tl-desc li {
   position: relative;
@@ -297,7 +289,7 @@ html, body {
   line-height: 1.2;
   color: var(--text-light-gray);
   padding-left: 3.4mm;
-  margin-bottom: 0.3mm;
+  margin-bottom: 0.6mm;
 }
 .tl-desc li:last-child { margin-bottom: 0; }
 .tl-desc li::before {
@@ -318,7 +310,7 @@ html, body {
   justify-content: space-between;
   align-items: flex-start;
   gap: 3mm;
-  padding: 1.1mm 0;
+  padding: 1.15mm 0;
   border-bottom: 0.75px dashed #d8d8d8;
 }
 .edu-row:last-child { border-bottom: none; }
